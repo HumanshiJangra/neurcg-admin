@@ -10,7 +10,7 @@ interface VideoCardProps {
 const NewUserCard: React.FC<VideoCardProps> = ({ title, thumbnail }) => {
   return (
     <>
-      <div className="p-1 rounded-lg bg-white cursor-pointer">
+      <div className="p-1 rounded-lg bg-white ">
         <div className="player-wrapper relative">
           {thumbnail &&
             <Image

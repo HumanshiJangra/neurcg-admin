@@ -48,15 +48,15 @@ const SideBar = ({ isOpen, toggleSidebar }: SideBarProps) => {
                 <span>Home</span>
               </Link>
             </li>
-            <li className={isActive('/my-projects')}>
-              <Link href="/my-projects"  onClick={handleLinkClick}>
+            <li className={isActive('/users')}>
+              <Link href="/users"  onClick={handleLinkClick}>
                 <ProfileIcon />
                 <span>Users</span>
               </Link>
             </li>
             {/* <p className="text-[#818999] text-[10px] font-medium mt-5 mb-[2px] pl-5">SERVICES</p> */}
-            <li className={isActive('/text-photo')}>
-              <Link href="/text-photo"  onClick={handleLinkClick}>
+            <li className={isActive('/income')}>
+              <Link href="/income"  onClick={handleLinkClick}>
                 <IncomeIcon />
                 <span>Income</span>
               </Link>
