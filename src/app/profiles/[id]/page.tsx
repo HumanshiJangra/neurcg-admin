@@ -55,9 +55,8 @@ const ProfilePage = () => {
 
   return (
     <div className="">
-        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, aut?
-      <h1 className="text-2xl font-bold mb-4">Customer Profile: {id}</h1>
-      <p>Details about customer #{id} will be displayed here.</p> */}
+      <h1 className="text-2xl font-bold mb-4 hidden">Customer Profile: {id}</h1>
+     
       {/* Add more profile information here */}
       <div className="bg-white rounded-[8px] p-5 md:px-[52px] md:py-[45px]"> 
           <div className="flex md:flex-row flex-col gap-y-4 justify-between md:items-center mb-10">
