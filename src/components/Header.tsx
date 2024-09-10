@@ -25,17 +25,13 @@ const Header: React.FC<HeaderProps> = ({
   const pathname = usePathname();
 
   const pageNames: { [key: string]: string } = {
-    "/home-page": "Home",
-    "/my-projects": "My Projects",
-    "/text-photo": "Text & Photo To Video",
-    "/audio-photo": "Audio & Photo To Video",
-    "/video-translation": "Video Generation And Translation",
-    "/refer": "Refer",
-    "/my-profile": "My Profile",
-    // Add more paths as needed
+    "/": "Home",
+    "/income": "Income",
+    "/users": "Users",
+    "/profiles": "Users",
   };
 
-  const currentPageName = pageNames[pathname] || "Home";
+  const currentPageName = pageNames[pathname] || "Users";
 
   // const handleDataShow = () => {
   //   setShowData(!showData);
